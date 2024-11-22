@@ -59,7 +59,7 @@
         <input type="hidden" name="memo" value="<?php echo htmlspecialchars($_SESSION['memo'], ENT_QUOTES, 'UTF-8'); ?>">
         <button type="submit" name="to_write" value="to_write">送信</button>
 
-    </form> <a href="index.php">
+    </form> <a href="thankyou.php">
         <button type="submit" value="to_index">修正する</button><br>
         <?php require 'footer.php'; ?>
         <!-- // nETWORK　doc　header　name　fromdata で検証ツールで確認できる-->
